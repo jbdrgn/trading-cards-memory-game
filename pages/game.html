@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Trading Cards Memory Game</title>
+	<link rel="icon" href="../img/icon.png" />
+	<!-- <link
+			href="https://fonts.googleapis.com/css?family=Bangers&display=swap"
+			rel="stylesheet"
+		/> -->
+	<link rel="stylesheet" href="../css/styles.css" />
+	<link rel="stylesheet" href="../css/game.css" />
+</head>
+
+<body>
+	<div id="game_title" title="Website">
+		<a class="remove_link_decoration" href="https://www.therevolutionprojectfx.org/" target="_blank">
+			<div id="game_title_text">Find All Pairs</div>
+		</a>
+	</div>
+	<div id="loading">
+		<img class="rotate" src="../img/icon.png" alt="" />
+		<p>Loading...</p>
+	</div>
+	<div id="game"></div>
+	<div class="info-game">
+		<div id="movements">Movements: 0</div>
+		<div id="timer">00:00</div>
+		<button class="no_hover" onclick="init.newGame()">
+			New Game
+		</button>
+	</div>
+	<div id="div_back_button">
+		<button id="back_button" onclick="window.location.href='../index.html'">
+			Menu
+		</button>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+	<script src="../js/index.js"></script>
+</body>
+<footer></footer>
+
+</html>

@@ -1,0 +1,11 @@
+body {
+	background-image: url(../img/background_2.png);
+	background-size: 105%;
+	background-position-y: 90%;
+	background-repeat: no-repeat;
+	background-size: auto;
+	-webkit-backdrop-filter: blur(3px); /* Use for Safari 9+, Edge 17+ (not a mistake) and iOS Safari 9.2+ */
+	backdrop-filter: blur(3px); /* Supported in Chrome 76 */
+	/* -webkit-filter: drop-shadow(5px 5px 5px #fff);
+	filter: drop-shadow(5px 5px 5px #fff); 	 */
+}

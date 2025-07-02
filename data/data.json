@@ -1,0 +1,24 @@
+{
+    "info":{
+        "count": 20,
+        "next": null,
+        "pages": 1,
+        "prev": null
+    },
+    "results":[
+        {
+            "created": "2017-11-04T18:48:46.250Z",
+            "episode": [],
+            "gender": "Male",
+            "id": 1,
+            "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+            "location": { "name": "", "url": ""},
+            "name": "Bitcoin",
+            "origin": {"name": "", "url": "" },
+            "species": "",
+            "status":"",
+            "type":"",
+            "url":""
+        }
+    ]   
+}
